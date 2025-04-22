@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DHSE Plus Two Result 2024</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 100px;
+            background-color: #f4f4f4;
+        }
+        .result-box {
+            background-color: white;
+            border-radius: 10px;
+            padding: 40px;
+            width: 90%;
+            max-width: 400px;
+            margin: auto;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+        input, button {
+            padding: 10px;
+            width: 80%;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #0066cc;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        img {
+            margin-top: 20px;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="result-box">
+        <h2>Kerala DHSE Plus Two Result 2024</h2>
+        <input type="text" placeholder="Enter ID" id="id"><br>
+        <input type="date" id="dob"><br>
+        <button onclick="showResult()">Submit</button>
+        <div id="result"></div>
+    </div>
+
+    <script>
+        function showResult() {
+            document.querySelector('.result-box').innerHTML = `
+                <h2>Result</h2>
+                <p>Processing...</p>
+                <img src="https://i.imgur.com/5cKXQ9s.jpeg" alt="Prank Image">
+            `;
+        }
+    </script>
+</body>
+</html>
